@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dronex - Mundo de Drones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0a3d62;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #1e3799;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1508612761958-e931d843bddb');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #0a3d62;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DeltaBaseCode</h1>
+        <p>Diseñando la ruta de vuelo</p>
+    </header>
+
+    <nav>
+        <a href="#tipos">Tipos de Drones</a>
+        <a href="#usos">Usos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="hero">
+        Bienvenido al Mundo de los Drones
+    </div>
+
+    <div class="container">
+
+        <section id="tipos" class="card">
+            <h2>Tipos de Drones</h2>
+            <ul>
+                <li>Drones recreativos</li>
+                <li>Drones profesionales</li>
+                <li>Drones FPV</li>
+                <li>Drones de carga</li>
+            </ul>
+        </section>
+
+        <section id="usos" class="card">
+            <h2>Usos Comunes</h2>
+            <p>Los drones se utilizan en una gran variedad de sectores:</p>
+            <ul>
+                <li>Fotografía y vídeo aéreo</li>
+                <li>Topografía y cartografía</li>
+                <li>Agricultura de precisión</li>
+                <li>Inspecciones industriales</li>
+                <li>Rescate y emergencias</li>
+            </ul>
+        </section>
+
+        <section id="contacto" class="card">
+            <h2>Contacto</h2>
+            <p>Si quieres saber más, rellena este formulario:</p>
+            <form>
+                <label>Nombre:</label><br>
+                <input type="text" name="nombre"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email"><br><br>
+
+                <label>Mensaje:</label><br>
+                <textarea name="mensaje" rows="4"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        © 2026 Dronex - Todos los derechos reservados
+    </footer>
+
+</body>
+</html>
